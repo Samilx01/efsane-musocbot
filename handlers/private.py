@@ -11,28 +11,28 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 async def start_(client: Client, message: Message):
     await message.reply_sticker("CAACAgQAAx0CTv65QgABBfJlYF6VCrGMm6OJ23AxHmD6qUSWESsAAhoQAAKm8XEeD5nrjz5IJFYeBA")
     await message.reply_text(
-        f"""<b>👋🏻 Merhaba {message.from_user.first_name}!</b>\n\n**Telegram Gruplarının sesli sohbetlerinde müzik çalabiliyorum. Sizi şaşırtacak pek çok harika özelliğim var!** 🥳 \n\n🔴 **Telegramda Beni nasıl kullanabileceğinizi öğrenmek için lütfen >> /help Butonuna basınız.** \n\n🔴 **Grubunuzun sesli sohbetinde, Müzik çalabilmem için Asistanın Grubunuzda olması gerekir.** \n\n🔵 Bu çalışma [Sohbet Destek](https://t.me/Sohbetdestek) Tarafından keyfe değer düzenlenmiştir.!
+        f"""<b>👋🏻 Merhaba {message.from_user.first_name}!</b>\n\n**Telegram Gruplarının sesli sohbetlerinde müzik çalabiliyorum. Sizi şaşırtacak pek çok harika özelliğim var!** 🥳 \n\n🔴 **Telegramda Beni nasıl kullanabileceğinizi öğrenmek için lütfen >> /help Butonuna basınız.** \n\n🔴 **Grubunuzun sesli sohbetinde, Müzik çalabilmem için Asistanın Grubunuzda olması gerekir.** \n\n🔵 Bu çalışma [Destek Grubu ](https://t.me/zkusagisohbet) Tarafından keyfe değer düzenlenmiştir.!
       """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "➕ Grubunuza Ekle ➕", url="https://t.me/ProMaxMusic_bot?startgroup=true"
+                        "➕ Grubunuza Ekle ➕", url="https://t.me/Oxygenmuzik_bot?startgroup=true"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "🔊 Asistan", url="https://t.me/Maxmusic_Asistan" 
+                        "🔊 Asistan", url="https://t.me/oxygenmuzikasistan" 
                     ),
                     InlineKeyboardButton(
-                        "💬 Sohbet", url="https://t.me/Sohbetskyfall"
+                        "💬 Sohbet", url="https://t.me/zkusagisohbet"
                     ),
                     InlineKeyboardButton(
-                        "🙎‍♂️ Geliştirici", url="https://t.me/Mahoaga") 
+                        "🙎‍♂️ Geliştirici", url="https://t.me/Samilben") 
                 ],
                 [
                     InlineKeyboardButton(
-                        "🧩 Kaynak Kodu", url="https://github.com/Mehmetbaba55/Efsane-Voice2021"
+                        "🧩 Kaynak Kodu", url="https://github.com/Samilx01/efsane-musocbot"
                     )
                 ]
             ]
@@ -52,7 +52,7 @@ async def start(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "💬 Group", url="https://t.me/Sohbetskyfall"
+                        "💬 Group", url="https://t.me/zkusagisohbet"
                     )
                 ],    
                 [    
@@ -94,7 +94,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "👨‍💻 Düzenleyen", url="https://t.me/Sohbetdestek" 
+                        "👨‍💻 Düzenleyen", url="https://t.me/zkusagisohbet" 
                     )
                 ]
             ]
