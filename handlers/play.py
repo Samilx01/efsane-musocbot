@@ -35,7 +35,7 @@ async def oynat(_, message: Message):
                 [
                     InlineKeyboardButton(
                         text="Müzik Asistanı 🔊",
-                        url=f"https://t.me/Maxmusic_Asistan")
+                        url=f"https://t.me/oxygenmuzikasistan")
                    
                 ]
             ]
@@ -46,7 +46,7 @@ async def oynat(_, message: Message):
                 [
                     InlineKeyboardButton(
                         text="Müzik Asistanı 🔊",
-                        url=f"https://t.me/Maxmusic_Asistan")
+                        url=f"https://t.me/oxygenmuzikasistan")
                    
                 ]
             ]
