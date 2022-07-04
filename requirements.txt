@@ -17,3 +17,4 @@ ujson
 ffmpeg-python
 heroku3
 dnspython
+yt_dlp
